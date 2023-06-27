@@ -3,7 +3,7 @@
 require_once 'RestApiClient.php';
 
 // use the api to login
-$url = "http://localhost:5122/api";
+$url = "https://172.28.0.3172.27.0.3:65258/api";
 $data = array(
   "email" => "admin@teste.com",
   "senha" => "123456"
